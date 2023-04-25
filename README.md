@@ -1,5 +1,30 @@
-# About the project
-Retail Store Management System using .NET 7 and Clean Architecture. It is designed to automate the management and tracking of a retail store's inventory, sales, and customers.
+# About
+The Retail Store Management System is a system designed for managing the retail store by ordering, arranging and selling goods.
+
+## UML Diagrams for Retail Store Management
+UML stands for Unified Modeling Language. It is a standardized visual modeling language used in software engineering to represent software design concepts and create visual models of software systems.
+### Problem to solve (Domain)
+Building a high-level and high-quality entreprise software for managing the retail store, to cover the following use-cases:  
+#### Retailer
+✔ Orders goods from supplier.  
+✔ Arranges goods.   
+✔ Sells goods to customers.   
+✔ Deliver the bill to customer.  
+
+#### Customer
+✔ Buys goods from the retailer.  
+✔ Perform the payment.  
+
+#### Supplier
+✔ Supplies the retailer with goods.  
+
+### Use-case diagram
+The use-case diagram summarizes all the system functionalities and use-cases.   
+![Retail Store Management System use-case diagram](./docs/assets/use-case.png)
+
+. If the stock of goods is less then retailer places order for goods. While ordering the goods, goods area received at store, the retailer then arrange them by product or by price,then retailer makes payment. If the stock of goods is available then he will arrange goods for selling.
+
+The retailer then sales the goods directly to the customer. The customer buys the items from retailer. The retailer preapares bill for goods purchased by the customer, he receives amount bycredit or by cash from customer. The supplier supplies the goods to the store in the system. The overall sysytem is used to manage the goods in th store.
 
 ## Additional resources
 * [Robert C. Martin (Uncle Bob) Clean Architecture Blog](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
