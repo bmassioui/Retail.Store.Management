@@ -21,10 +21,10 @@ Building a high-level and high-quality entreprise software for managing the reta
 ### Use-case diagram
 The use-case diagram summarizes all the system functionalities and use-cases.   
 ![Retail Store Management System use-case diagram](./docs/assets/use-case.png)
+### Class diagram
+The Class diagram shows the system entities and how they are related..   
+![Retail Store Management System class diagram](./docs/assets/class-diagram.png)
 
-. If the stock of goods is less then retailer places order for goods. While ordering the goods, goods area received at store, the retailer then arrange them by product or by price,then retailer makes payment. If the stock of goods is available then he will arrange goods for selling.
-
-The retailer then sales the goods directly to the customer. The customer buys the items from retailer. The retailer preapares bill for goods purchased by the customer, he receives amount bycredit or by cash from customer. The supplier supplies the goods to the store in the system. The overall sysytem is used to manage the goods in th store.
 
 ## Additional resources
 * [Robert C. Martin (Uncle Bob) Clean Architecture Blog](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
