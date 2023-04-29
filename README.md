@@ -16,11 +16,8 @@ Building a high-level and high-quality entreprise software for managing the reta
 ✔ Perform the payment.  
 
 #### Supplier
-✔ Supplies the retailer with goods.  
+✔ Supplies goods.  
 
-### Use-case diagram
-The use-case diagram summarizes all the system functionalities and use-cases.   
-![Retail Store Management System use-case diagram](./docs/assets/use-case.png)
 ### Class diagram
 The Class diagram shows the system entities and how they are related..   
 ![Retail Store Management System class diagram](./docs/assets/class-diagram.png)
